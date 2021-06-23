@@ -1,5 +1,5 @@
 # Bar-Tinder
-An Express.js Webapp that recommends cocktails based on filters!
+A completely responsive and dynamic Full stack Express.js Webapp that recommends cocktails based on filters!
 
 # Database
 https://www.thecocktaildb.com/api.php
