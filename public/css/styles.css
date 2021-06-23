@@ -1,0 +1,117 @@
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Courgette', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 5% 10% 5%;
+}
+
+.container-search{
+  padding: 5% 10%;
+  max-height: 8rem;
+}
+
+.container-ctlg{
+  padding: 5% 10% 5%;
+}
+
+.top-buffer { margin-top:20px; }
+
+/* Sections */
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.card{
+  height: 100%;
+  padding: 0.5rem;
+}
+
+
+.drinks{
+  display: list-item;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url("/images/bg.jpg");
+  text-align: center;
+  background-size: cover;
+}
+
+#search {
+  background-image: url("/images/bg2.jpg");
+  text-align: center;
+  background-size: cover;
+}
+
+.cocktailimg{
+  height: 15rem;
+  width: 15rem;
+  border-radius:50%;
+  margin-bottom: 0.5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.mobileHidden{
+  display: none;
+  visibility: hidden;
+}
+}
+
+
+.mobileShow { display: none;}
+
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ .mobileShow { display: inline;}}
