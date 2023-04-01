@@ -1,0 +1,247 @@
+<%- include("partials/header") -%>
+  <center>
+  <section id="catalogue">
+    <div class="mobileShow">
+
+        <div class="row">
+          <div class="col col-8 text-left">
+
+          </div>
+
+
+
+<div class="container-fluid">
+      <div class="row">
+          <div class="col">
+            <button type="submit" name="button1" value="hi" class="btn"> <a href=" https://bar-tinder.herokuapp.com/">Home</a> </button>
+            <a href="#" class="mobileShow btn btn-primary mobileShow" data-toggle="modal" data-target="#modal-edit-user">Try more filters</a>
+          </div>
+          </div>
+            <div class="modal fade" tabindex="-1" data-backdrop="false" id="modal-edit-user" role="dialog">
+              <div class="modal-dialog role= " document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="" action="/" method="post">
+                      <input type="radio" name="Alc" value="any" checked> Any
+                      <br>
+                      <input type="radio" name="Alc" value="rum" > Rum
+                      <br>
+                      <input type="radio" name="Alc" value="vodka"> Vodka
+                      <br>
+                      <input type="radio" name="Alc" value="gin"> Gin
+                      <br>
+                      <input type="radio" name="Alc" value="whiskey"> Whiskey
+                      <br>
+                      <input type="radio" name="Alc" value="wine"> Wine
+                      <br>
+                      <input type="radio" name="Alc" value="brandy"> Brandy
+                      <br>
+                      <input type="radio" name="Alc" value="beer"> Beer
+                      <br>
+                      <input type="radio" name="Alc" value="tequila"> Tequila
+                      <br>
+                      <input type="radio" name="Alc" value="Other Drink"> Exotic Drinks
+                      <br>
+                      <!-- <input type="radio" name="Alc" value="non"> Non-Alcoholic
+                     <br> -->
+                      <br><br><br>
+                      <input type="radio" name="Taste" value="any" checked> Any
+                      <br>
+                      <input type="radio" name="Taste" value="orange">Tangy
+                      <br>
+                      <input type="radio" name="Taste" value="sour"> Sour
+                      <br>
+                      <input type="radio" name="Taste" value="sweet"> Sweet
+                      <br>
+                      <input type="radio" name="Taste" value="milky"> Milky
+                      <br>
+                      <input type="radio" name="Taste" value="chocolate"> Chocolate
+                      <br>
+                      <input type="radio" name="Taste" value="coffee"> Tea/Coffee
+                      <br>
+                      <input type="radio" name="Taste" value="bitter"> Bitter
+                      <br>
+                      <input type="radio" name="Taste" value="fruity"> Fruity
+                      <br><br><br>
+                      <h5>Choose a Drink Type</h5>
+                      <input type="radio" name="type" value="cocktail" checked="checked"> Cocktail
+                      <br>
+                      <input type="radio" name="type" value="shot"> Shot
+                      <br>
+                      <input type="radio" name="type" value="beer"> Beer
+                      <br>
+                      <input type="radio" name="type" value="shake" > Shake
+                      <br>
+                      <input type="radio" name="type" value="ordinary"> Ordinary
+                      <br>
+                      <input type="radio" name="type" value="punch"> Punch
+                      <br>
+                      <input type="radio" name="type" value="coffee"> Coffee/Tea
+                      <br>
+                      <input type="radio" name="type" value="soda"> Soda
+                      <br>
+                      <input type="radio" name="type" value="cocoa"> Cocoa
+                      <br>
+                      <input type="radio" name="type" value="other"> Summer Drinks
+                      <br><br><br>
+                      <button class="btn btn-dark" type="submit" name="button">Lets find out!</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-ctlg">
+      <div class="row">
+        <div class="col mobileHidden col-lg-3 text-left">
+          <h2>Try out more combinatins</h2>
+          <br>
+          <form class="" action="/" method="post">
+            <!-- <input  type="radio" name="Alcoholic" value="Alcoholic"> Alcoholic
+          <br>
+          <input type="radio" name="NonAlcoholic" value="nalc"> Non-Alcoholic
+          <br>
+          <br><br><br> -->
+
+            <div class="card mobileHidden" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Choose an Alcohol Type</h5>
+                <input type="radio" name="Alc" value="any" checked> Any
+                <br>
+                <input type="radio" name="Alc" value="rum"> Rum
+                <br>
+                <input type="radio" name="Alc" value="vodka"> Vodka
+                <br>
+                <input type="radio" name="Alc" value="gin"> Gin
+                <br>
+                <input type="radio" name="Alc" value="whiskey"> Whiskey
+                <br>
+                <input type="radio" name="Alc" value="wine"> Wine
+                <br>
+                <input type="radio" name="Alc" value="brandy"> Brandy
+                <br>
+                <input type="radio" name="Alc" value="beer"> Beer
+                <br>
+                <input type="radio" name="Alc" value="tequila"> Tequila
+                <br>
+                <input type="radio" name="Alc" value="Other Drink"> Exotic Drinks
+                <br><br><br>
+              </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Choose a Taste</h5>
+                <input type="radio" name="Taste" value="any" checked> Any
+                <br>
+                <input type="radio" name="Taste" value="orange">Tangy
+                <br>
+                <input type="radio" name="Taste" value="sour"> Sour
+                <br>
+                <input type="radio" name="Taste" value="sweet"> Sweet
+                <br>
+                <input type="radio" name="Taste" value="milky"> Milky
+                <br>
+                <input type="radio" name="Taste" value="chocolate"> Chocolate
+                <br>
+                <input type="radio" name="Taste" value="coffee"> Tea/Coffee
+                <br>
+                <input type="radio" name="Taste" value="bitter"> Bitter
+                <br>
+                <input type="radio" name="Taste" value="fruity"> Fruity
+                <br><br><br>
+              </div>
+            </div>
+  <br>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Choose a Drink Type</h5>
+                <input type="radio" name="type" value="cocktail" checked> Cocktail
+                <br>
+                <input type="radio" name="type" value="shot"> Shot
+                <br>
+                <input type="radio" name="type" value="beer"> Beer
+                <br>
+                <input type="radio" name="type" value="shake" > Shake
+                <br>
+                <input type="radio" name="type" value="ordinary"> Ordinary
+                <br>
+                <input type="radio" name="type" value="punch"> Punch
+                <br>
+                <input type="radio" name="type" value="coffee"> Coffee/Tea
+                <br>
+                <input type="radio" name="type" value="soda"> Soda
+                <br>
+                <input type="radio" name="type" value="cocoa"> Cocoa
+                <br>
+                <input type="radio" name="type" value="other"> Summer Drinks
+                <br><br><br>
+                <button class="btn btn-dark" type="submit" name="button">Lets find out!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col">
+          <div class="row d-flex justify-content-center">
+
+            <%new_card.forEach(function(i) {%>
+            <center>
+              <div class="col top-buffer col-lg-6">
+                <div class="card" style="width: 15rem;">
+                  <img class="card-img-top" loading="lazy" src="<%=i.image %>" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"> <%= i.name %> </h5>
+                    <!-- <p class="card-text"><%= i.alcohol %></p> -->
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-edit-user-<%= i.Id %>">Checkout Recipe!</a>
+                  </div>
+                </div>
+              </div>
+            </center>
+
+
+            <div class="modal fade" id="modal-edit-user-<%= i.Id %>" role="document" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="card">
+                  <div class="text-right cross"> <i class="fa fa-window-close"></i> </div>
+                  <div class="card-body text-left">
+                  <h1><%= i.name %></h1>
+
+                    <h4>Ingredients</h4>
+                      <% for(var j=0;j<6;j++){%>
+                        <% if(i.ingredients[j]!=" "){  %>
+                          <ul>
+                      <li> <p><%=i.ingredients[j]%>-<%=i.measure[j]%></p></li>
+                      </ul>
+                        <%} else{  %>
+                        <%  continue%>
+                        <%  }%>
+                <%  }%>
+                <h4>Instructions</h4>
+                <p><%=i.instruction%></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% })%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</center>
+
+
+
+
+<%- include("partials/footer") -%>
